@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-blue: #1553e0;
+  --color-blue-soft: #e8efff;
+  --color-orange: #ff6a13;
+  --color-orange-soft: #fff0e6;
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'Figtree', sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { background: #fff; color: var(--color-ink); font-family: var(--font-body); }
+  ::selection { background: var(--color-orange); color: #fff; }
+}

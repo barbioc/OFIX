@@ -1,0 +1,10 @@
+{
+  "description": "Encuentra profesionales calificados para el hogar con Ofix, una landing page con acceso a contactos, información del servicio e inicio de sesión.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
